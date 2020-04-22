@@ -49,5 +49,22 @@ console.log(filter(SCRIPTS, script => script.living));<br/>
   </i> <br/>
   <br/>
   <b> Map </b>
+  So the mapping methods creates once again a new array. This array has the same length of the old one but...<br/>
+  its content will have been mapped to a new form by the function.
+ <br/><br/>
+  It looks like this:<br/> <i>
+  let rtlScripts = SCRIPTS.filter(s => s.direction == "rtl");<br/>
+console.log(map(rtlScripts, s => s.name)); // this is the map method call.<br/>
+// → ["Adlam", "Arabic", "Imperial Aramaic", …]<br/>
+  </i><br/>
+  It works like this:<br/><i>
+  function map(array, transform) {<br/>
+  let mapped = [];<br/>
+  for (let element of array) {<br/>
+    mapped.push(transform(element));<br/>
+  }<br/>
+  return mapped;<br/>
+}</i><br/>
+  
   
   
