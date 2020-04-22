@@ -18,3 +18,36 @@ const horn = () => { <br/>
 
 </p>
 
+<h3> Methods </h3>
+<p> <b> forEach </b> <br/>
+  works similar to a for/of loop as a higher order function <br/>
+  Example: <br/>
+  <i> ["A", "B"].forEach(l => console.log(l)); <br/>
+// → A <br/>
+// → B <br/>
+  </i>
+   <br/> <br/>
+  <b> Filter </b> <br/>
+  A filter functions writes a new array with the filtered results. So it does not delete the other items in the original array. <br/>
+  It looks like this: <br/>
+  <i> console.log(SCRIPTS.filter(s => s.direction == "ttb")); <br/>
+    // → [{name: "Mongolian", …}, …] </i> <br/>
+   <br/> <br/>
+  It works like this: <i><br/>
+  function filter(array, test) {<br/>
+  let passed = [];<br/>
+  for (let element of array) {<br/>
+    if (test(element)) {<br/>
+      passed.push(element);<br/>
+    }<br/>
+  }<br/>
+  return passed;<br/>
+}<br/>
+<br/>
+console.log(filter(SCRIPTS, script => script.living));<br/>
+// → [{name: "Adlam", …}, …]<br/>
+  </i> <br/>
+  <br/>
+  <b> Map </b>
+  
+  
