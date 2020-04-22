@@ -4,9 +4,10 @@
   
   <h3> Arrow functions </h3>
   <p> The arrow functions is made of "=>". The arrow comes after the list of parameters and is followed by the function’s body. It expresses something like “this input (the parameters) produces this result (the body)”.When there is only one parameter name, you can omit the parentheses around the parameter list. If the body is a single expression, rather than a block in braces, that expression will be returned from the function. So, these two definitions of square do the same thing:
+  <br/> <br/>
 <span><i>
-const square1 = (x) => { return x * x; };
-const square2 = x => x * x;
+const square1 = (x) => { return x * x; }; <br/>
+const square2 = x => x * x; <br/>
   </i>   </span>
 
 </p>
