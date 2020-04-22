@@ -70,3 +70,4 @@ console.log(map(rtlScripts, s => s.name)); // this is the map method call.<br/>
   <b> Reduce </b><br/>
   <u> deze snap ik niet </u>
   
+Bron: Chapter 3 & 5 of eloquentjavescript
