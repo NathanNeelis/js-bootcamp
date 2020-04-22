@@ -32,7 +32,7 @@ const horn = () => { <br/>
   It looks like this: <br/>
   <i> console.log(SCRIPTS.filter(s => s.direction == "ttb")); <br/>
     // → [{name: "Mongolian", …}, …] </i> <br/>
-   <br/> <br/>
+   <br/>
   It works like this: <i><br/>
   function filter(array, test) {<br/>
   let passed = [];<br/>
@@ -48,7 +48,7 @@ console.log(filter(SCRIPTS, script => script.living));<br/>
 // → [{name: "Adlam", …}, …]<br/>
   </i> <br/>
   <br/>
-  <b> Map </b>
+  <b> Map </b><br/>
   So the mapping methods creates once again a new array. This array has the same length of the old one but...<br/>
   its content will have been mapped to a new form by the function.
  <br/><br/>
