@@ -66,5 +66,7 @@ console.log(map(rtlScripts, s => s.name)); // this is the map method call.<br/>
   return mapped;<br/>
 }</i><br/>
   
-  
+  <br/>
+  <b> Reduce </b><br/>
+  <u> deze snap ik niet </u>
   
